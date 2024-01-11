@@ -46,35 +46,38 @@ If the script find some of these element will print every not duplicated setting
 
 Here is a list of things that cannot be duplicated from a Form with this tool:
 
-Form settings
+#### Form settings
 
 - Responses
- - Collect email addresses
-   - Verified - method not present
-   - Send responders a copy of their response
-     - Always - method not present
-     - When requested - method not present
+  - Collect email addresses
+    - Verified - method not present
+    - Send responders a copy of their response
+      - Always - method not present
+      - When requested - method not present
 
 - Presentation
   - Disable autosave for all respondents - method not present
 
 
-Form Questions
+#### Form Questions
 
-    In each question type it's impossible to set the text style (bold, italic ecc.) in the title and description.
+In each question type it's impossible to set the text style (bold, italic ecc.) in the title and description.
 
-    Short Answer
-      - Response Validation
-        - Text
-          - Contains - method not present (work-around using Regular Expression literals)
-          - Doesn't contain - method not present (work-around using Regular Expression literals)
+Short Answer
 
-    Multiple Choice / Checkboxes:
-      - Shuffle Order Question - method not present
+- Response Validation
+  - Text
+    - Contains - method not present (work-around using Regular Expression literals)
+    - Doesn't contain - method not present (work-around using Regular Expression literals)
+ 
+Multiple Choice / Checkboxes
 
-    Multiple Choice
-      - Due to a bug it's impossible to set the "Other" option if other choices in same question have "Go to section based on answer"
-        See here: https://issuetracker.google.com/issues/171782147?pli=1
+- Shuffle Order Question - method not present
+
+Multiple Choice
+
+- Due to a bug it's impossible to set the "Other" option if other choices in same question have "Go to section based on answer"
+  See here: https://issuetracker.google.com/issues/171782147?pli=1
 
     Date
       - Due to a bug, using addDateTimeItem() will create a Date question without the time
