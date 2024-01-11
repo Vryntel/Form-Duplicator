@@ -51,7 +51,8 @@ Here is a list of things that cannot be duplicated from a Form with this tool:
 - Responses
   - Collect email addresses
     - Verified - method not present
-    - Send responders a copy of their response
+      
+  - Send responders a copy of their response
       - Always - method not present
       - When requested - method not present
 
@@ -79,8 +80,8 @@ Multiple Choice
 - Due to a bug it's impossible to set the "Other" option if other choices in same question have "Go to section based on answer"
   See here: https://issuetracker.google.com/issues/171782147?pli=1
 
-    Date
-      - Due to a bug, using addDateTimeItem() will create a Date question without the time
+Date
+ - Due to a bug, using addDateTimeItem() will create a Date question without the time
 
     
     File Upload - Object not present
