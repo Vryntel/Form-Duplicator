@@ -1,8 +1,8 @@
-# Form-Duplicator
-Form Duplicator is a tool to duplicate a public Google Form without being an owner/collaborator of the form.
+# FormDuplicator
+FormDuplicator is a tool to duplicate a public Google Form without being an owner/collaborator of the form.
 
 
-
+![ScreenShot](formDuplicator.png)
 
 
 Spreadsheet with script:
