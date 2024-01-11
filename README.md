@@ -86,3 +86,8 @@ Date
     
     File Upload - Object not present
 
+
+## Toolbar
+
+The toolbar has the "FormDuplicator" item that when clicked will display this option:
+- Duplicate Form: analyze the form specified in the Settings worksheet and create a copy of the form. At the end of the execution, if the script found some impossible to duplicate item, it will print them in the worksheet "Not duplicated"
