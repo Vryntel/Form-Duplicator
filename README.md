@@ -62,7 +62,7 @@ Here is a list of things that cannot be duplicated from a Form with this tool:
 
 #### Form Questions
 
-In each question type it's impossible to set the text style (bold, italic ecc.) in the title and description.
+In each question type it's impossible to set the text style (bold, italic ecc.) in the title and description for lack of methods. This tool also doesn't support image source in image question type, description or choices.
 
 Short Answer
 
@@ -84,7 +84,7 @@ Date
  - Due to a bug, using addDateTimeItem() will create a Date question without the time
 
     
-    File Upload - Object not present
+File Upload - Object not present
 
 
 ## Toolbar
