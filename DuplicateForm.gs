@@ -571,16 +571,13 @@ function duplicateForm() {
             item = form.addDateItem();
           }
           else {
-            // Doesn't create a Date with time but only Date
             item = form.addDateTimeItem();
           }
+          // If DateTime question, after using setIncludesYear() question became a date without time (Apps Script bug)
           if (questions[n][4][0][7][1] == 0) {
             item.setIncludesYear(false);
           }
-          else {
-            item.setIncludesYear(true);
-          }
-
+          
           item.setTitle(questions[n][1]);
           item.setHelpText(questions[n][2]);
 
