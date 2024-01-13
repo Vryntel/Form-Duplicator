@@ -7,7 +7,7 @@ FormDuplicator is a tool to duplicate a public Google Form without being an owne
 
 Spreadsheet with script:
 
-https://docs.google.com/spreadsheets/d/1nYBfvTkIWfmBFhnaNFrDDQh5m_9GJ0m0xHPbqVQhfD4/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1nYBfvTkIWfmBFhnaNFrDDQh5m_9GJ0m0xHPbqVQhfD4/copy
 
 This script can copy the following Form question types:
 
