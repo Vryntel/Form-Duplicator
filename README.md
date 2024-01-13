@@ -77,11 +77,12 @@ Multiple Choice / Checkboxes
 
 Multiple Choice
 
-- Due to a bug it's impossible to set the "Other" option if other choices in same question have "Go to section based on answer"
-  See here: https://issuetracker.google.com/issues/171782147?pli=1
+- Due to a bug, it's impossible to set the "Other" option if other choices in same question have "Go to section based on answer"
+  See here: https://issuetracker.google.com/issues/171782147
 
-Date
- - Due to a bug, using addDateTimeItem() will create a Date question without the time
+DateTime
+ - Due to a bug, using setIncludesYear() will create a Date question without the time.
+   See here: https://issuetracker.google.com/issues/36763896
 
     
 File Upload - Object not present
