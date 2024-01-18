@@ -549,6 +549,10 @@ function duplicateForm() {
           item.setTitle(questions[n][1]);
           item.setHelpText(questions[n][2]);
 
+          if (questions[n][4][0][2] == 1) {
+            item.setRequired(true);
+          }
+
           item.setColumns(questions[n][4][0][1]);
 
           for (let i = 0; i < questions[n][4].length; i++) {
